@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+    <TextView
+        android:id="@+id/secondScreen"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="end"
+        android:text=""
+        android:textSize="40sp"
+        android:fontFamily="monospace"></TextView>
+
+    <TextView
+        android:id="@+id/Screen"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:text=""
+        android:gravity="end"
+        android:textSize="60sp"
+        android:fontFamily="monospace"></TextView>
+</LinearLayout>
+
